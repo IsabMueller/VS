@@ -2,9 +2,11 @@ package sample;
 
 import java.util.Calendar;
 
-public class CalenderSample {
+public class CalenderSample{
+
 
     public static void main(String[] args){
+
         int year = 2018;
         int month = 8;
 
@@ -37,5 +39,7 @@ public class CalenderSample {
             }
         }
     }
+
+
 }
 

@@ -6,8 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.util.Calendar;
-
 
 public class Main extends Application {
 
@@ -16,7 +14,7 @@ public class Main extends Application {
     public void start(Stage primaryStage)
     {
         try {
-            final FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
+            final FXMLLoader loader = new FXMLLoader(getClass().getResource("terminOk.fxml"));
             final Parent root = (Parent) loader.load();
             Scene scene = new Scene(root);
             primaryStage.setTitle("Sharing Time");
