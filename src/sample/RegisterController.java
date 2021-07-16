@@ -1,13 +1,29 @@
 package sample;
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.control.PasswordField;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 
-import java.io.File;
-import java.net.URL;
+import java.io.IOException;
 
 public class RegisterController {
 
+    @FXML
+    private BorderPane registrierenPane;
+    @FXML
+    private Button btnAbbrechen;
+
+    @FXML
+    public void handleBtnAbbrechen(ActionEvent actionEvent){
+        AnchorPane newPane = null;
+        try {
+            newPane = FXMLLoader.load(getClass().getResource("Willkommen.fxml"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        registrierenPane.getChildren().setAll(newPane);
+    }
 }
