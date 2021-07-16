@@ -10,17 +10,17 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-
     public void start(Stage primaryStage)
     {
         try {
-            final FXMLLoader loader = new FXMLLoader(getClass().getResource("terminerstellung_Kal.fxml"));
+            final FXMLLoader loader = new FXMLLoader(getClass().getResource("TerminNeu.fxml"));
             final Parent root = (Parent) loader.load();
             Scene scene = new Scene(root);
             primaryStage.setTitle("Sharing Time");
             primaryStage.setScene(scene);
             primaryStage.show();
-        } catch(Exception e) {
+        }
+        catch(Exception e) {
             e.printStackTrace();
         }
     }
