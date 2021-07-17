@@ -17,6 +17,8 @@ public class WillkommenController {
     @FXML
     private AnchorPane welcomePane;
 
+
+    // aufrufen der Register.fxml//
     public void handleBtnReg(ActionEvent actionEvent) {
         BorderPane newPane = null;
         try {
@@ -27,6 +29,7 @@ public class WillkommenController {
         welcomePane.getChildren().setAll(newPane);
     }
 
+    // aufrufen der Login.fxml//
     public void handleBtnLogIn(ActionEvent actionEvent) {
         BorderPane newPane = null;
         try {

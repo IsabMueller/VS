@@ -17,6 +17,8 @@ public class TerminNeuController {
     @FXML
     private Button btnBack;
 
+
+    //Aufrufen der Start.fxml//
     @FXML
     public void handleBtnBack(ActionEvent event) throws IOException{
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));

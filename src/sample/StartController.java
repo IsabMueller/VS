@@ -16,6 +16,7 @@ public class StartController {
     @FXML
     private Button btnTerminNew;
 
+    //Aufrufen der TerminNeu.fxml//
     public void handleBtnTerminNew(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("TerminNeu.fxml"));
         startPane.getChildren().setAll(newPane);

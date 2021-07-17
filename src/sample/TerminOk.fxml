@@ -7,8 +7,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="536.0" prefWidth="680.0" style="-fx-background-color: #1c1c1c;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TerminOk">
+<AnchorPane prefHeight="536.0" prefWidth="680.0" style="-fx-background-color: #1c1c1c;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TerminOkController">
    <children>
       <Button fx:id="btnOK" layoutX="338.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleBtnOK" prefHeight="42.0" prefWidth="143.0" style="-fx-background-color: #473c8b;" text="OK" textFill="GAINSBORO" />
       <Pane prefHeight="536.0" prefWidth="150.0" style="-fx-background-color: #434343;">
