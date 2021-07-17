@@ -7,33 +7,25 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0"
-            prefWidth="947.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/16"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartController">
+<AnchorPane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="947.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartController">
    <Pane layoutY="-1.0" prefHeight="533.0" prefWidth="150.0" style="-fx-background-color: #434343;">
-      <Line endX="-62.30712890625" endY="-438.0" layoutX="152.0" layoutY="438.0" startX="-153.5071258544922"
-            startY="99.78582763671875" stroke="DARKTURQUOISE"/>
-      <Line endX="-117.153564453125" endY="-448.70709228515625" layoutX="162.0" layoutY="448.0"
-            startX="-162.00001525878906" startY="85.60003662109375" stroke="DARKTURQUOISE"/>
+      <Line endX="-62.30712890625" endY="-438.0" layoutX="152.0" layoutY="438.0" startX="-153.5071258544922" startY="99.78582763671875" stroke="DARKTURQUOISE" />
+      <Line endX="-117.153564453125" endY="-448.70709228515625" layoutX="162.0" layoutY="448.0" startX="-162.00001525878906" startY="85.60003662109375" stroke="DARKTURQUOISE" />
    </Pane>
-   <Label layoutX="172.0" layoutY="24.0" prefHeight="41.0" prefWidth="242.0" style="-fx-border-color: #00ced1;"
-          text="Willkommen User!" textFill="GAINSBORO">
+   <Label layoutX="172.0" layoutY="24.0" prefHeight="41.0" prefWidth="242.0" style="-fx-border-color: #00ced1;" text="Willkommen User!" textFill="GAINSBORO">
       <font>
-         <Font name="System Bold" size="27.0"/>
+         <Font name="System Bold" size="27.0" />
       </font>
    </Label>
-   <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="266.0" layoutY="63.0" startX="-93.20002746582031"
-         startY="14.400009155273438" stroke="DARKTURQUOISE"/>
+   <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="266.0" layoutY="63.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
    <Label layoutX="172.0" layoutY="117.0" prefHeight="41.0" prefWidth="242.0" text="Was liegt an?" textFill="GAINSBORO">
       <font>
-         <Font name="System Bold" size="21.0"/>
+         <Font name="System Bold" size="21.0" />
       </font>
    </Label>
-   <Button fx:id="btnTerminNew" layoutX="738.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleBtnTerminNew"
-           style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Terminerstellen"
-           textFill="GAINSBORO">
+   <Button fx:id="btnTerminNew" layoutX="738.0" layoutY="138.0" mnemonicParsing="false" onAction="#handleBtnTerminNew" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Terminerstellen" textFill="GAINSBORO">
       <font>
-         <Font name="System Bold" size="12.0"/>
+         <Font name="System Bold" size="12.0" />
       </font>
    </Button>
 </AnchorPane>
