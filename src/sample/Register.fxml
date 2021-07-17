@@ -29,15 +29,15 @@
             <Label layoutX="88.0" layoutY="177.0" text="Username" textFill="GAINSBORO" />
             <TextField fx:id="mailTextField" layoutX="342.0" layoutY="195.0" prefHeight="26.0" prefWidth="200.0" promptText="max.mustermann@gmail.com" />
             <Label layoutX="342.0" layoutY="177.0" text="Mail" textFill="GAINSBORO" />
-            <TextField fx:id="setPasswordField" layoutX="83.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
+            <TextField fx:id="setPasswordField" layoutX="88.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
             <Label layoutX="90.0" layoutY="233.0" text="Passwort" textFill="GAINSBORO" />
             <TextField fx:id="confirmPasswordField" layoutX="342.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
             <Label layoutX="342.0" layoutY="233.0" text="Passwort bestätigen" textFill="GAINSBORO" />
-            <Button fx:id="registrierenButton" layoutX="153.0" layoutY="307.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #b2ff43;" text="Registrieren" textFill="#434343">
+            <Button fx:id="registrierenButton" layoutX="170.0" layoutY="306.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #b2ff43;" text="Registrieren" textFill="#434343">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnAbbrechen" layoutX="153.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBtnAbbrechen" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #ff4369;" text="Abbrechen" textFill="#434343">
+            <Button fx:id="btnAbbrechen" layoutX="170.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBtnAbbrechen" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #ff4369;" text="Abbrechen" textFill="#434343">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
