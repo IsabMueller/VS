@@ -11,6 +11,8 @@ import java.io.IOException;
 public class StartController {
 
     @FXML
+    private Button btnLogout;
+    @FXML
     private Button btnProfil;
     @FXML
     private Button btnUebersicht;
@@ -20,7 +22,6 @@ public class StartController {
     private Button btnNeuerKalender;
     @FXML
     private AnchorPane startPane;
-
     @FXML
     private Button btnTerminNew;
 
@@ -52,7 +53,3 @@ public class StartController {
 }
 
 
-
-
-//public void handleBtnLogout(ActionEvent actionEvent) {
-//}

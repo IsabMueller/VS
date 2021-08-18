@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Line?>
@@ -49,10 +50,28 @@
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <DatePicker fx:id="datepicker" layoutX="172.0" layoutY="381.0" prefHeight="24.0" prefWidth="229.0" showWeekNumbers="true" />
    <Button fx:id="btnNeuerKalender" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnNeuerKalender" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Neuer Kalender" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
+   <TabPane layoutX="172.0" layoutY="166.0" prefHeight="327.0" prefWidth="536.0" style="-fx-background-color: #473c8b;" tabClosingPolicy="UNAVAILABLE">
+     <tabs>
+       <Tab text="Termine">
+         <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="186.0" prefWidth="313.0" />
+         </content>
+       </Tab>
+       <Tab text="Notitzen">
+         <content>
+           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+       </Tab>
+         <Tab text="Gemeinsame Termine">
+           <content>
+             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+           </content>
+         </Tab>
+     </tabs>
+   </TabPane>
 </AnchorPane>
