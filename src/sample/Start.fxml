@@ -29,28 +29,28 @@
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnLogout" layoutX="740.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleBtnLogout" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Logout!" textFill="GAINSBORO">
+   <Button fx:id="btnLogout" layoutX="740.0" layoutY="450.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Logout!" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnProfl" layoutX="741.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleProfil" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Profil" textFill="GAINSBORO">
+   <Button fx:id="btnProfil" layoutX="741.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleBtnProfil" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Profil" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnTerminNew11" layoutX="741.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleBtnUebersicht" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Übersicht" textFill="GAINSBORO">
+   <Button fx:id="btnUebersicht" layoutX="741.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleBtnUebersicht" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Übersicht" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnTerminNew111" layoutX="741.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleBtnEinstellungen" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Einstellungen" textFill="GAINSBORO">
+   <Button fx:id="btnEinstellungen" layoutX="741.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleBtnEinstellungen" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Einstellungen" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
    <DatePicker fx:id="datepicker" layoutX="172.0" layoutY="381.0" prefHeight="24.0" prefWidth="229.0" showWeekNumbers="true" />
-   <Button fx:id="btnTerminNew1111" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnEinstellungen" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Neuer Kalender" textFill="GAINSBORO">
+   <Button fx:id="btnNeuerKalender" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnNeuerKalender" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Neuer Kalender" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>

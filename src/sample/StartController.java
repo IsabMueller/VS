@@ -11,6 +11,14 @@ import java.io.IOException;
 public class StartController {
 
     @FXML
+    private Button btnProfil;
+    @FXML
+    private Button btnUebersicht;
+    @FXML
+    private Button btnEinstellungen;
+    @FXML
+    private Button btnNeuerKalender;
+    @FXML
     private AnchorPane startPane;
 
     @FXML
@@ -22,16 +30,29 @@ public class StartController {
         startPane.getChildren().setAll(newPane);
     }
 
-    public void handleBtnLogout(ActionEvent actionEvent) {
+    public void handleBtnProfil(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Profil.fxml"));
+        startPane.getChildren().setAll(newPane);
     }
 
-    public void handleProfil(ActionEvent actionEvent) {
+    public void handleBtnUebersicht(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Uebersicht.fxml"));
+        startPane.getChildren().setAll(newPane);
     }
 
-    public void handleBtnUebersicht(ActionEvent actionEvent) {
+    public void handleBtnNeuerKalender(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("NeuerKalender.fxml"));
+        startPane.getChildren().setAll(newPane);
     }
 
-    public void handleBtnEinstellungen(ActionEvent actionEvent) {
+    public void handleBtnEinstellungen(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
+        startPane.getChildren().setAll(newPane);
     }
-
 }
+
+
+
+
+//public void handleBtnLogout(ActionEvent actionEvent) {
+//}
