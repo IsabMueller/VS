@@ -45,11 +45,6 @@
             <TextField layoutX="9.0" layoutY="9.0" prefHeight="36.0" prefWidth="69.0" style="-fx-background-color: #343434;" />
          </children>
       </Pane>
-      <Label layoutX="300.0" layoutY="208.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
-         <font>
-            <Font size="39.0" />
-         </font>
-      </Label>
       <Button fx:id="btnBack" layoutX="826.0" layoutY="31.0" mnemonicParsing="false" onAction="#handleBtnBack" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
       <Button fx:id="btnOK" layoutX="834.0" layoutY="475.0" mnemonicParsing="false" onAction="#handleBtnOK" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="OK" textFill="GAINSBORO" />
       <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="266.0" layoutY="63.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
@@ -98,6 +93,26 @@
             <TextArea layoutX="5.0" layoutY="4.0" prefHeight="66.0" prefWidth="517.0" style="-fx-background-color: #434343;" />
          </children>
       </Pane>
-      <ColorPicker layoutX="489.0" layoutY="118.0" prefHeight="26.0" prefWidth="194.0" />
+      <ColorPicker layoutX="465.0" layoutY="118.0" prefHeight="26.0" prefWidth="86.0" />
+      <Label layoutX="465.0" layoutY="83.0" prefHeight="26.0" prefWidth="86.0" text="Kategorie:" textFill="GAINSBORO" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Pane layoutX="574.0" layoutY="110.0" prefHeight="43.0" prefWidth="331.0" style="-fx-background-color: #473C8B;">
+         <children>
+            <TextField fx:id="textFieldName" layoutX="12.0" layoutY="9.0" prefHeight="25.0" prefWidth="307.0" style="-fx-background-color: #343434;" />
+         </children>
+      </Pane>
+      <Label layoutX="574.0" layoutY="83.0" prefHeight="26.0" prefWidth="86.0" text="Name:" textFill="GAINSBORO" underline="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="208.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
