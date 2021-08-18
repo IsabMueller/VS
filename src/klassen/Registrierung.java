@@ -1,4 +1,5 @@
-package sample;
+package klassen;
+/*
 // import Adressenklasse
 
 import java.util.Scanner;
@@ -14,9 +15,11 @@ public class Registrierung {
     public String Passwort;
 
 
-public void ProfilAnlegen {
+/*public void ProfilAnlegen {
     Scanner input = new Scanner (System.in);
 
     }
 
+
 }
+*/

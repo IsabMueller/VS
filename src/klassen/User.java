@@ -1,5 +1,5 @@
-package sample;
-
+package klassen;
+/*
 public class User {
     public String nachname;
     public String vorname;
@@ -8,7 +8,7 @@ public class User {
     public String eMail;
     public String geburtstag;
 
-    static void User{
+    static void User(){
 
     }
 
@@ -16,3 +16,4 @@ public class User {
 
 }
 
+*/

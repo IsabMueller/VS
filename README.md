@@ -3,7 +3,8 @@ package sample;
 import java.util.Scanner;
 public class userpass {
 
-    public static void main(String[] args) {
+    public static void blubb(String[] args) {
+
         Scanner input = new Scanner(System.in);
 
         String user, geburtsdatum, email, pass;
