@@ -46,7 +46,7 @@ public class TerminNeuController {
         terminNeuPane.getChildren().setAll(newPane);
     }
 
-    /
+
 
 
     /*
