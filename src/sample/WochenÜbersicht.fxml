@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="WochenÜbersichtPane" prefHeight="538.0" prefWidth="735.0" style="-fx-background-color: #1c1c1c;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UebersichtController">
+<AnchorPane fx:id="WochenÜbersichtPane" prefHeight="538.0" prefWidth="735.0" style="-fx-background-color: #1c1c1c;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WochenÜbersichtController">
    <children>
       <Pane prefHeight="538.0" prefWidth="171.0" style="-fx-background-color: #434343;">
          <children>
