@@ -85,5 +85,6 @@
             <Font size="13.0" />
          </font>
       </Label>
+      <ComboBox layoutX="443.0" layoutY="110.0" prefHeight="26.0" prefWidth="170.0" promptText="Default" />
    </children>
 </AnchorPane>
