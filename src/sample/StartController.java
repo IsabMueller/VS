@@ -54,7 +54,7 @@ public class StartController {
     public void handleBtnTerminEdit(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("TerminBearbeiten.fxml"));
         startPane.getChildren().setAll(newPane);
-    }
+    } //änderung
 }
 
 
