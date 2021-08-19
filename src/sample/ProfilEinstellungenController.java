@@ -12,6 +12,24 @@ import java.io.IOException;
 public class ProfilEinstellungenController {
 
     @FXML
+    private Button btnChangeHausnummer;
+    @FXML
+    private Button btnChangeStadt;
+    @FXML
+    private Button btnChangePostleitzahl;
+    @FXML
+    private Button btnChangeLand;
+    @FXML
+    private Button btnChangeStraße;
+    @FXML
+    private Button btnChangeNachname;
+    @FXML
+    private Button btnChangeVorname;
+    @FXML
+    private Button btnChangeUsername;
+    @FXML
+    private Button btnChangeGeburtstag;
+    @FXML
     private TextField tfUsernameSet;
     @FXML
     private Button btnBackProfileinstellungen;
