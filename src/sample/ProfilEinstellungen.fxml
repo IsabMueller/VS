@@ -33,12 +33,12 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="182.0" layoutY="188.0" prefHeight="1.0" prefWidth="190.0" text="Nachname:" textFill="GAINSBORO">
+      <Label layoutX="182.0" layoutY="187.0" prefHeight="1.0" prefWidth="190.0" text="Nachname:" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="182.0" layoutY="229.0" prefHeight="1.0" prefWidth="190.0" text="Geburtstag:" textFill="GAINSBORO">
+      <Label layoutX="182.0" layoutY="227.0" prefHeight="1.0" prefWidth="190.0" text="Geburtstag:" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
@@ -53,12 +53,12 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="203.0" layoutY="347.0" prefHeight="1.0" prefWidth="190.0" text="Hausnummer:" textFill="GAINSBORO">
+      <Label layoutX="210.0" layoutY="347.0" prefHeight="1.0" prefWidth="190.0" text="Hausnummer:" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="210.0" layoutY="425.0" prefHeight="1.0" prefWidth="190.0" text="Postleitzahl:" textFill="GAINSBORO">
+      <Label layoutX="210.0" layoutY="421.0" prefHeight="1.0" prefWidth="190.0" text="Postleitzahl:" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
@@ -68,30 +68,28 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="221.0" layoutY="470.0" prefHeight="1.0" prefWidth="190.0" text="Land:" textFill="GAINSBORO">
+      <Label layoutX="210.0" layoutY="461.0" prefHeight="1.0" prefWidth="190.0" text="Land:" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
       <TextField fx:id="tfUsernameSet" layoutX="340.0" layoutY="111.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
       <TextField fx:id="tfUsernameSet1" layoutX="340.0" layoutY="149.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet11" layoutX="340.0" layoutY="189.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet111" layoutX="340.0" layoutY="230.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet1111" layoutX="340.0" layoutY="270.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfUsernameSet11" layoutX="340.0" layoutY="188.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfUsernameSet111" layoutX="340.0" layoutY="228.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
       <TextField fx:id="tfUsernameSet11111" layoutX="340.0" layoutY="308.0" prefHeight="12.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
       <TextField fx:id="tfUsernameSet111111" layoutX="340.0" layoutY="346.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet1111111" layoutX="340.0" layoutY="424.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet11111111" layoutX="340.0" layoutY="469.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfUsernameSet1111111" layoutX="340.0" layoutY="420.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfUsernameSet11111111" layoutX="340.0" layoutY="459.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
       <TextField fx:id="tfUsernameSet1111112" layoutX="340.0" layoutY="382.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <Button layoutX="623.0" layoutY="346.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="382.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="469.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="308.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="190.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="150.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeHausnummer" layoutX="623.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleBtnChangeHausnummer" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeStadt" layoutX="623.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleBtnChangeStadt" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangePostleitzahl" layoutX="623.0" layoutY="421.0" mnemonicParsing="false" onAction="#handleBtnChangePostleitzahl" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeLand" layoutX="623.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleBtnChangeLand" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeStraße" layoutX="623.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleBtnChangeStraße" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeNachname" layoutX="623.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleBtnChangeNachname" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeVorname" layoutX="623.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleBtnChangeVorname" prefHeight="26.0" prefWidth="80.0" text="ändern" />
       <Button fx:id="btnChangeUsername" layoutX="623.0" layoutY="112.0" mnemonicParsing="false" onAction="#handleBtnChangeUsername" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="230.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
-      <Button layoutX="623.0" layoutY="270.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="ändern" />
+      <Button fx:id="btnChangeGeburtstag" layoutX="623.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleBtnChangeGeburtstag" prefHeight="26.0" prefWidth="80.0" text="ändern" />
    </children>
 </AnchorPane>
