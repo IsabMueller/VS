@@ -16,7 +16,7 @@ public class EinstellungenAendernAdresseController {
     private Button btnBackAdresseChange;
 
     public void handleBtnBackAdresseChange(ActionEvent event) throws IOException {
-        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
         adresseChangePane.getChildren().setAll(newPane);
     }
 }

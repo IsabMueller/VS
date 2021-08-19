@@ -9,14 +9,14 @@ import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
-public class EinstellungenAendernNachnameController {
-    @FXML
-    private Pane NachnameChangePane;
+public class EinstellungenAendernVornameController {
     @FXML
     private Button btnBackSettings;
+    @FXML
+    private Pane VornameChangePane;
 
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
-        NachnameChangePane.getChildren().setAll(newPane);
+        VornameChangePane.getChildren().setAll(newPane);
     }
 }
