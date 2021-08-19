@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="terminNeuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="947.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TerminNeuController">
+<AnchorPane fx:id="TerminBearbeitenPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="947.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TerminBearbeitenController">
    <children>
       <Pane layoutY="-1.0" prefHeight="533.0" prefWidth="150.0" style="-fx-background-color: #434343;">
          <children>
@@ -19,7 +19,7 @@
          </children>
       </Pane>
       <DatePicker fx:id="dpTerminNeu" layoutX="183.0" layoutY="201.0" prefHeight="25.0" prefWidth="242.0" style="-fx-background-color: #00CED1;" />
-      <Label layoutX="192.0" layoutY="25.0" prefHeight="41.0" prefWidth="242.0" style="-fx-border-color: #00ced1;" text="  Terminerstellung" textFill="GAINSBORO">
+      <Label layoutX="192.0" layoutY="25.0" prefHeight="41.0" prefWidth="256.0" style="-fx-border-color: #00ced1;" text="  Termin bearbeiten" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="27.0" />
          </font>
@@ -42,7 +42,7 @@
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="457.0" layoutY="254.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
+      <Label layoutX="457.0" layoutY="252.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
          <font>
             <Font size="39.0" />
          </font>
@@ -67,7 +67,7 @@
             <Font size="13.0" />
          </font>
       </Label>
-      <Label layoutX="259.0" layoutY="254.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
+      <Label layoutX="260.0" layoutY="252.0" prefHeight="36.0" prefWidth="16.0" text=":" textFill="GAINSBORO">
          <font>
             <Font size="39.0" />
          </font>
@@ -85,6 +85,6 @@
             <Font size="13.0" />
          </font>
       </Label>
-      <ComboBox layoutX="443.0" layoutY="110.0" prefHeight="26.0" prefWidth="170.0" promptText="Default" />
+      <ComboBox layoutX="446.0" layoutY="110.0" prefHeight="26.0" prefWidth="170.0" promptText="Default" />
    </children>
 </AnchorPane>
