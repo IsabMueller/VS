@@ -51,7 +51,7 @@
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnNeuerKalender" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnNeuerKalender" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Neuer Kalender" textFill="GAINSBORO">
+   <Button fx:id="btnAdressbuch" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnAdressbuch" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Adressbuch" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
@@ -62,7 +62,7 @@
          <content>
            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="186.0" prefWidth="313.0">
                   <children>
-                     <ListView layoutX="35.0" layoutY="25.0" prefHeight="218.0" prefWidth="242.0" />
+                     <ListView layoutX="43.0" layoutY="35.0" prefHeight="218.0" prefWidth="242.0" />
                      <Button fx:id="btnTerminEdit" layoutX="319.0" layoutY="74.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Termin ändern" textFill="GAINSBORO">
                         <font>
                            <Font name="System Bold" size="12.0" />

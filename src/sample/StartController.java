@@ -42,7 +42,7 @@ public class StartController {
     }
 
     public void handleBtnNeuerKalender(ActionEvent event) throws IOException {
-        AnchorPane newPane = FXMLLoader.load(getClass().getResource("NeuerKalender.fxml"));
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Adressbuch.fxml"));
         startPane.getChildren().setAll(newPane);
     }
 

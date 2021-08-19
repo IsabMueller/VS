@@ -8,7 +8,7 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 
-public class NeuerKalenderController {
+public class AdressbuchController {
     @FXML
     private AnchorPane neuerKalenderPane;
     @FXML
