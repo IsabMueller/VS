@@ -13,4 +13,12 @@ import javafx.scene.layout.AnchorPane;
 public class TerminBearbeitenController {
 
 
+    @FXML
+    private DatePicker dpTerminEdit;
+    @FXML
+    private Button btnOK;
+    @FXML
+    private Button btnBack;
+    @FXML
+    private AnchorPane TerminBearbeitenPane;
 }

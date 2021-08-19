@@ -18,7 +18,7 @@
             <Line endX="-117.153564453125" endY="-448.70709228515625" layoutX="162.0" layoutY="448.0" startX="-162.00001525878906" startY="85.60003662109375" stroke="DARKTURQUOISE" />
          </children>
       </Pane>
-      <DatePicker fx:id="dpTerminNeu" layoutX="183.0" layoutY="201.0" prefHeight="25.0" prefWidth="242.0" style="-fx-background-color: #00CED1;" />
+      <DatePicker fx:id="dpTerminEdit" layoutX="183.0" layoutY="201.0" prefHeight="25.0" prefWidth="242.0" style="-fx-background-color: #00CED1;" />
       <Label layoutX="192.0" layoutY="25.0" prefHeight="41.0" prefWidth="256.0" style="-fx-border-color: #00ced1;" text="  Termin bearbeiten" textFill="GAINSBORO">
          <font>
             <Font name="System Bold" size="27.0" />
