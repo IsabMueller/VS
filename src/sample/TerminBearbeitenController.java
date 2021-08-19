@@ -9,6 +9,8 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
+import java.io.IOException;
+
 
 public class TerminBearbeitenController {
 
@@ -21,4 +23,9 @@ public class TerminBearbeitenController {
     private Button btnBack;
     @FXML
     private AnchorPane TerminBearbeitenPane;
+
+    public void handleBtnBack(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
+        TerminBearbeitenPane.getChildren().setAll(newPane);
+    }
 }
