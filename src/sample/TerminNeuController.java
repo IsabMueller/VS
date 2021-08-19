@@ -13,6 +13,7 @@ import java.io.IOException;
 
 public class TerminNeuController {
 
+    private ComboBox comboboxErinnerung;
     @FXML
     private ComboBox comboboxKategorie;
     @FXML
@@ -44,6 +45,20 @@ public class TerminNeuController {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         terminNeuPane.getChildren().setAll(newPane);
     }
+
+    /
+
+
+    /*
+    combobox wiederholen füllen
+    private void loadReminder() {
+        comboboxErinnerung.getItems().add("keine Erinnerung");
+        comboboxErinnerung.getItems().add("15m");
+        comboboxErinnerung.getItems().add("30m");
+        comboboxErinnerung.getItems().add("1h");
+        comboboxErinnerung.getItems().add("2h");
+        comboboxErinnerung.getSelectionModel().select(2);
+    }*/
 
     public void handleBtnOK(ActionEvent actionEvent) {
     }

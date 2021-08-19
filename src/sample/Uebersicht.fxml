@@ -22,5 +22,9 @@
       </Label>
       <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="276.0" layoutY="73.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
       <Button fx:id="btnBackUebersicht" layoutX="836.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleBtnBackUebersicht" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
+      <Button fx:id="btnTag" layoutX="415.0" layoutY="142.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="218.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Tagesübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnWoche" layoutX="415.0" layoutY="192.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="218.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Wochenübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnMonat" layoutX="415.0" layoutY="241.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="218.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Monatsübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnTracker" layoutX="415.0" layoutY="289.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="218.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Tracker" textFill="GAINSBORO" />
    </children>
 </AnchorPane>
