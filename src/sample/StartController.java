@@ -19,7 +19,7 @@ public class StartController {
     @FXML
     private Button btnEinstellungen;
     @FXML
-    private Button btnNeuerKalender;
+    private Button btnAdressbuch;
     @FXML
     private AnchorPane startPane;
     @FXML
@@ -41,7 +41,7 @@ public class StartController {
         startPane.getChildren().setAll(newPane);
     }
 
-    public void handleBtnNeuerKalender(ActionEvent event) throws IOException {
+    public void handleBtnAdressbuch(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Adressbuch.fxml"));
         startPane.getChildren().setAll(newPane);
     }

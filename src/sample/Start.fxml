@@ -51,7 +51,7 @@
          <Font name="System Bold" size="12.0" />
       </font>
    </Button>
-   <Button fx:id="btnNeuerKalender" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnNeuerKalender" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Neuer Kalender" textFill="GAINSBORO">
+   <Button fx:id="btnAdressbuch" layoutX="741.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleBtnAdressbuch" prefHeight="32.0" prefWidth="170.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Adressbuch" textFill="GAINSBORO">
       <font>
          <Font name="System Bold" size="12.0" />
       </font>
