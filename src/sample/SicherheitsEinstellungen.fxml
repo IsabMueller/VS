@@ -22,12 +22,12 @@
       </Label>
       <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="276.0" layoutY="73.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
       <Button fx:id="btnBackSicherheitseinstellungen" layoutX="836.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleBtnBackSicherheitseinstellungen" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
-      <Button fx:id="btnChangeEmail" layoutX="253.0" layoutY="193.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="595.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="E-mail Adresse ändern" textFill="GAINSBORO">
+      <Button fx:id="btnChangeEmail" layoutX="253.0" layoutY="193.0" mnemonicParsing="false" onAction="#handleBtnChangeEmail" prefHeight="27.0" prefWidth="595.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="E-mail Adresse ändern" textFill="GAINSBORO">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="btnChangePasswort" layoutX="253.0" layoutY="281.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="595.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Passwort ändern" textFill="GAINSBORO">
+      <Button fx:id="btnChangePasswort" layoutX="253.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleBtnChangePasswort" prefHeight="27.0" prefWidth="595.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Passwort ändern" textFill="GAINSBORO">
          <font>
             <Font size="18.0" />
          </font>
