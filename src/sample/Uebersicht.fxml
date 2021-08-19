@@ -22,5 +22,9 @@
       </Label>
       <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="276.0" layoutY="73.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
       <Button fx:id="btnBackUebersicht" layoutX="836.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleBtnBackUebersicht" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
+      <Button fx:id="btnTagesübersicht" layoutX="372.0" layoutY="155.0" mnemonicParsing="false" onAction="#handleBtnTagesübersicht" prefHeight="60.0" prefWidth="362.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Tagesübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnMonatsübersicht" layoutX="372.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleBtnMonatsübersicht" prefHeight="60.0" prefWidth="362.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Monatsübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnWochenübersicht" layoutX="372.0" layoutY="249.0" mnemonicParsing="false" onAction="#handleBtnWochenübersicht" prefHeight="60.0" prefWidth="362.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Wochenübersicht" textFill="GAINSBORO" />
+      <Button fx:id="btnJahresübersicht" layoutX="372.0" layoutY="432.0" mnemonicParsing="false" onAction="#handleBtnJahresübersicht" prefHeight="60.0" prefWidth="362.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Jahresübersicht" textFill="GAINSBORO" />
    </children>
 </AnchorPane>
