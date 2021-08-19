@@ -73,15 +73,15 @@
             <Font name="System Bold" size="16.0" />
          </font>
       </Label>
-      <TextField fx:id="tfUsernameSet" layoutX="340.0" layoutY="111.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet1" layoutX="340.0" layoutY="149.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet11" layoutX="340.0" layoutY="188.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet111" layoutX="340.0" layoutY="228.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet11111" layoutX="340.0" layoutY="308.0" prefHeight="12.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet111111" layoutX="340.0" layoutY="346.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet1111111" layoutX="340.0" layoutY="420.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet11111111" layoutX="340.0" layoutY="459.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
-      <TextField fx:id="tfUsernameSet1111112" layoutX="340.0" layoutY="382.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfusername" layoutX="340.0" layoutY="111.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfVorname" layoutX="340.0" layoutY="149.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfNachname" layoutX="340.0" layoutY="188.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfGeburtstag" layoutX="340.0" layoutY="228.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfStraße" layoutX="340.0" layoutY="308.0" prefHeight="12.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfHausnummer" layoutX="340.0" layoutY="346.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfPostleitzahl" layoutX="340.0" layoutY="420.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfLand" layoutX="340.0" layoutY="459.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
+      <TextField fx:id="tfStadt" layoutX="340.0" layoutY="382.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
       <Button fx:id="btnChangeHausnummer" layoutX="623.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleBtnChangeHausnummer" prefHeight="26.0" prefWidth="80.0" text="ändern" />
       <Button fx:id="btnChangeStadt" layoutX="623.0" layoutY="383.0" mnemonicParsing="false" onAction="#handleBtnChangeStadt" prefHeight="26.0" prefWidth="80.0" text="ändern" />
       <Button fx:id="btnChangePostleitzahl" layoutX="623.0" layoutY="421.0" mnemonicParsing="false" onAction="#handleBtnChangePostleitzahl" prefHeight="26.0" prefWidth="80.0" text="ändern" />
