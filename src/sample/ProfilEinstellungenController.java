@@ -11,16 +11,9 @@ import java.io.IOException;
 
 public class ProfilEinstellungenController {
 
+
     @FXML
-    private Button btnChangeHausnummer;
-    @FXML
-    private Button btnChangeStadt;
-    @FXML
-    private Button btnChangePostleitzahl;
-    @FXML
-    private Button btnChangeLand;
-    @FXML
-    private Button btnChangeStraße;
+    private Button btnChangeAdresse;
     @FXML
     private Button btnChangeNachname;
     @FXML
@@ -38,6 +31,31 @@ public class ProfilEinstellungenController {
 
     public void handleBtnBackProfileinstellungen(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
+        ProfileinstellungenPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnChangeAdresse(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernAdresse.fxml"));
+        ProfileinstellungenPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnChangeUsername(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernUsername.fxml"));
+        ProfileinstellungenPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnChangeNachname(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernNachname.fxml"));
+        ProfileinstellungenPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnChangeVorname(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernVorname.fxml"));
+        ProfileinstellungenPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnChangeGeburtstag(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernGeburtstag.fxml"));
         ProfileinstellungenPane.getChildren().setAll(newPane);
     }
 }
