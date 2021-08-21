@@ -11,6 +11,14 @@ import java.io.IOException;
 public class StartController {
 
     @FXML
+    private Button btnTerminEdit;
+    @FXML
+    private Button btnTerminLoeschen;
+    @FXML
+    private Button btnDetailsTagesübersicht;
+    @FXML
+    private Button btnTracker;
+    @FXML
     private Button btnLogout;
     @FXML
     private Button btnProfil;
