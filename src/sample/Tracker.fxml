@@ -21,8 +21,7 @@
          </font>
       </Label>
       <Line endX="646.9857788085938" endY="14.400016784667969" layoutX="276.0" layoutY="73.0" startX="-93.20002746582031" startY="14.400009155273438" stroke="DARKTURQUOISE" />
-      <Button fx:id="btnBackTagesübersicht" layoutX="836.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleBtnBackTagesübersicht" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
-      <Button fx:id="btnZeitenÜbersicht" layoutX="211.0" layoutY="131.0" mnemonicParsing="false" onAction="#handleBtnBackZeitenÜbersicht" prefHeight="356.0" prefWidth="231.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zeiten Übersicht" textFill="GAINSBORO">
+      <Button fx:id="btnZeitenÜbersicht" layoutX="211.0" layoutY="131.0" mnemonicParsing="false" prefHeight="356.0" prefWidth="231.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zeiten Übersicht" textFill="GAINSBORO">
          <font>
             <Font size="25.0" />
          </font>
@@ -34,5 +33,6 @@
             <Font size="60.0" />
          </font>
       </Label>
+      <Button fx:id="btnBackSettings" layoutX="830.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleBtnBackSettings" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
    </children>
 </AnchorPane>

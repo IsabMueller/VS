@@ -11,6 +11,8 @@ import java.io.IOException;
 public class StartController {
 
     @FXML
+    private AnchorPane TerminTabelle;
+    @FXML
     private Button btnTerminEdit;
     @FXML
     private Button btnTerminLoeschen;
@@ -64,9 +66,9 @@ public class StartController {
         startPane.getChildren().setAll(newPane);
     }
 
-    public void handleBtnTagesÜersicht(ActionEvent event) throws IOException {
+    public void handleBtnDetailTagesÜersicht(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("TagesÜbersicht.fxml"));
-        startPane.getChildren().setAll(newPane);
+        TerminTabelle.getChildren().setAll(newPane);
     }
 
     public void handleBtnTracker(ActionEvent event) throws IOException {
