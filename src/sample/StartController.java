@@ -62,7 +62,17 @@ public class StartController {
     public void handleBtnTerminEdit(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("TerminBearbeiten.fxml"));
         startPane.getChildren().setAll(newPane);
-    } //änderung
+    }
+
+    public void handleBtnTagesÜersicht(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("TagesÜbersicht.fxml"));
+        startPane.getChildren().setAll(newPane);
+    }
+
+    public void handleBtnTracker(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Tracker.fxml"));
+        startPane.getChildren().setAll(newPane);
+    }
 }
 
 
