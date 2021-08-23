@@ -21,19 +21,19 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="vornameTextField" layoutX="88.0" layoutY="141.0" prefHeight="26.0" prefWidth="200.0" promptText="Max" />
+            <TextField fx:id="tfRegVorname" layoutX="88.0" layoutY="141.0" prefHeight="26.0" prefWidth="200.0" promptText="Max" />
             <Label layoutX="90.0" layoutY="123.0" text="Vorname" textFill="GAINSBORO" />
-            <TextField fx:id="nachnameTextField" layoutX="342.0" layoutY="141.0" prefHeight="26.0" prefWidth="200.0" promptText="Mustermann" />
+            <TextField fx:id="tfRegNachname" layoutX="342.0" layoutY="141.0" prefHeight="26.0" prefWidth="200.0" promptText="Mustermann" />
             <Label layoutX="339.0" layoutY="123.0" text="Nachname" textFill="GAINSBORO" />
-            <TextField fx:id="usernameTextfield" layoutX="88.0" layoutY="195.0" prefHeight="26.0" prefWidth="198.0" promptText="Maxinator" />
+            <TextField fx:id="tfRegUsername" layoutX="88.0" layoutY="195.0" prefHeight="26.0" prefWidth="198.0" promptText="Maxinator" />
             <Label layoutX="88.0" layoutY="177.0" text="Username" textFill="GAINSBORO" />
-            <TextField fx:id="mailTextField" layoutX="342.0" layoutY="195.0" prefHeight="26.0" prefWidth="200.0" promptText="max.mustermann@gmail.com" />
+            <TextField fx:id="tfRegMail" layoutX="342.0" layoutY="195.0" prefHeight="26.0" prefWidth="200.0" promptText="max.mustermann@gmail.com" />
             <Label layoutX="342.0" layoutY="177.0" text="Mail" textFill="GAINSBORO" />
-            <TextField fx:id="setPasswordField" layoutX="88.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
+            <TextField fx:id="tfRegPw" layoutX="88.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
             <Label layoutX="90.0" layoutY="233.0" text="Passwort" textFill="GAINSBORO" />
-            <TextField fx:id="confirmPasswordField" layoutX="342.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
+            <TextField fx:id="tfRegPwConfirm" layoutX="342.0" layoutY="251.0" prefHeight="26.0" prefWidth="200.0" promptText="* * * * * * * *" />
             <Label layoutX="342.0" layoutY="233.0" text="Passwort bestätigen" textFill="GAINSBORO" />
-            <Button fx:id="registrierenButton" layoutX="170.0" layoutY="306.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #b2ff43;" text="Registrieren" textFill="#434343">
+            <Button fx:id="btnReg" layoutX="170.0" layoutY="306.0" mnemonicParsing="false" onAction="#handleBtnReg" prefHeight="32.0" prefWidth="270.0" style="-fx-background-color: #b2ff43;" text="Registrieren" textFill="#434343">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
