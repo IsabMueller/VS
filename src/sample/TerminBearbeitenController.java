@@ -24,6 +24,11 @@ public class TerminBearbeitenController {
     @FXML
     private AnchorPane TerminBearbeitenPane;
 
+    /**
+     * Controller der Terminbearbeitung
+     * @param event Aufruf der zugehörigen GUI
+     * @throws IOException Rückkehr
+     */
     public void handleBtnBack(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         TerminBearbeitenPane.getChildren().setAll(newPane);

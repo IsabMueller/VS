@@ -36,10 +36,11 @@ public class TerminNeuController {
     private Button btnBack;
 
 
-
-
-
-    //zurück zu Start.fxml//
+    /**
+     * Zurück zum GUI "Start"
+     * @param event
+     * @throws IOException
+     */
     @FXML
     public void handleBtnBack(ActionEvent event) throws IOException{
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
@@ -60,6 +61,10 @@ public class TerminNeuController {
         comboboxErinnerung.getSelectionModel().select(2);
     }*/
 
+    /**
+     * Controller zum Erstellen eines neuen Termins
+     * @param actionEvent
+     */
     public void handleBtnOK(ActionEvent actionEvent) {
     }
 }

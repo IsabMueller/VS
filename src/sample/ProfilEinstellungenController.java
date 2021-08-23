@@ -29,6 +29,12 @@ public class ProfilEinstellungenController {
     @FXML
     private AnchorPane ProfileinstellungenPane;
 
+    /**
+     * Controller Klasse zum Aufruf der einzelnen Punkte in den Einstellungen
+     * Allgemeine Einstellungen, Änderungen der Adresse, des Nutzernamen, des Vor- und Nachnamen, des Geburtstags bzw. Geburtsdatums
+     * @param event
+     * @throws IOException
+     */
     public void handleBtnBackProfileinstellungen(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
         ProfileinstellungenPane.getChildren().setAll(newPane);

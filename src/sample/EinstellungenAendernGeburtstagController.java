@@ -15,6 +15,11 @@ public class EinstellungenAendernGeburtstagController {
     @FXML
     private Pane GeburtstagChangePane;
 
+    /**
+     *
+     * @param event Änderung des Geburtstags (Geburtsdatum)
+     * @throws IOException Anzeigen der GUI ProfilEinstellungen
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
        GeburtstagChangePane.getChildren().setAll(newPane);

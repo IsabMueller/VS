@@ -14,6 +14,11 @@ public class KategorienVerwaltenController {
     @FXML
     private AnchorPane KategorienVerwaltenPane;
 
+    /**
+     *
+     * @param event Wechsel zum GUI "Einstellungen"
+     * @throws IOException
+     */
     public void handleBtnBackKategorienVerwalten(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
         KategorienVerwaltenPane.getChildren().setAll(newPane);

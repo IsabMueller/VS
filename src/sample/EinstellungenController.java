@@ -22,21 +22,41 @@ public class EinstellungenController {
     @FXML
     private Button btnSicherheitseinstellungen;
 
+    /**
+     * Controller Klasse für den Punkt "Einstellungen"
+     * @param event Wechsel zum GUI "Start"
+     * @throws IOException
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         einstellungenPane.getChildren().setAll(newPane);
     }
 
+    /**
+     * Controller Klasse für den Punkt "Einstellungen"
+     * @param event Wechsel zum GUI "Profileinstellungen"
+     * @throws IOException
+     */
     public void handleBtnProfilEinstellungen(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Profileinstellungen.fxml"));
         einstellungenPane.getChildren().setAll(newPane);
     }
 
+    /**
+     * Controller Klasse für den Punkt "Einstellungen"
+     * @param event Wechsel zum GUI "KategorienVerwaltung"
+     * @throws IOException
+     */
     public void handleBtnKategorienVerwalten(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("KategorienVerwalten.fxml"));
         einstellungenPane.getChildren().setAll(newPane);
     }
 
+    /**
+     * Controller Klasse für den Punkt "Einstellungen"
+     * @param event Wechsel zum GUI "Sicherheitseinstellungen"
+     * @throws IOException
+     */
     public void handleBtnSicherheitseinstellungen(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Sicherheitseinstellungen.fxml"));
         einstellungenPane.getChildren().setAll(newPane);

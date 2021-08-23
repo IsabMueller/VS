@@ -29,7 +29,11 @@ public class LoginController implements Initializable {
     @FXML
     private PasswordField enterPasswordField;
 
-
+    /**
+     * Controller Klasse für LogIn
+     * @param url Initialisierung des Ressourcen-Bundle (z.B. Bilder)
+     * @param resourceBundle Ressourcen-Bundle (z.B. Bilder, Schriftarten, etc.)
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle){
         File brandingFile = new File("Bilder/Logo.png");
@@ -41,6 +45,10 @@ public class LoginController implements Initializable {
         lockImageView.setImage(lockImage);
     }
 
+    /**
+     *
+     * @param event Button zum Bestätigen des LogIn mit Überprüfung der Anmeldedaten im Hintergrund
+     */
     public void loginButtonOnAction(ActionEvent event) {
 
         if (usernameTextField.getText().isBlank() == false && enterPasswordField.getText().isBlank() == false) {
@@ -50,6 +58,10 @@ public class LoginController implements Initializable {
         }
     }
 
+    /**
+     *
+     * @param event Button zum Abbruch des LogIn Vorgangs
+     */
     public void cancelButtonOnAction(ActionEvent event) {
         Stage stage = (Stage) cancelButton.getScene().getWindow();
         stage.close();

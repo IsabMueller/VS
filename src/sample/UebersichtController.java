@@ -23,6 +23,11 @@ public class UebersichtController {
     @FXML
     private Button btnBackUebersicht;
 
+    /**
+     * Controller für das Anzeigen der einzelnen Übersichtseinstellungen (Tages-, Wochen-, Monats- und Jahresansicht)
+     * @param event
+     * @throws IOException
+     */
     public void handleBtnBackUebersicht(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         uebersichtPane.getChildren().setAll(newPane);

@@ -8,6 +8,10 @@ public class TerminOkController {
     @FXML
     private Button btnOK;
 
+    /**
+     * Controller zur Bestätigung einer Terminanfrage
+     * @param actionEvent
+     */
     public void handleBtnOK(ActionEvent actionEvent) {
     }
 }

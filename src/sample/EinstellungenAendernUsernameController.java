@@ -15,6 +15,11 @@ public class EinstellungenAendernUsernameController {
     @FXML
     private Pane usernameChangePane;
 
+    /**
+     *
+     * @param event Änderung des Nutzernamens (Username)
+     * @throws IOException Anzeigen des GUI "ProfilEinstellungen"
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
         usernameChangePane.getChildren().setAll(newPane);

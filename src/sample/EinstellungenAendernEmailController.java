@@ -17,6 +17,11 @@ public class EinstellungenAendernEmailController {
     @FXML
     private Button btnChangedEmail;
 
+    /**
+     *
+     * @param event Änderung der Sicherheitseinstellungen (Änderung Mail-Adresse)
+     * @throws IOException Anzeigen des GUI Sicherheitseinstellungen
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("SicherheitsEinstellungen.fxml"));
         EmailChangePane.getChildren().setAll(newPane);

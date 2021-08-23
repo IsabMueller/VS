@@ -6,9 +6,15 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
+/**
+ * Start der Anwendung mit Erweiterung
+ */
 public class Main extends Application {
 
+    /**
+     *
+     * @param primaryStage Primäre/r Screen/Anzeige - Laden der "Haupt-GUI"
+     */
     @Override
     public void start(Stage primaryStage)
     {
@@ -24,6 +30,11 @@ public class Main extends Application {
             e.printStackTrace();
         }
     }
+
+    /**
+     *
+     * @param args Start der Methoden
+     */
     public static void main(String[] args) {
 
         launch(args);

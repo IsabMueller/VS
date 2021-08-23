@@ -17,6 +17,11 @@ public class EinstellungenAendernPasswortController {
     @FXML
     private Button btnChangedPasswort;
 
+    /**
+     *
+     * @param event Änderung des Passworts
+     * @throws IOException Anzeigen des GUI "SicherheitsEinstellungen"
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("SicherheitsEinstellungen.fxml"));
         PasswortChangePane.getChildren().setAll(newPane);

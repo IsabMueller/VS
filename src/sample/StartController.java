@@ -35,7 +35,12 @@ public class StartController {
     @FXML
     private Button btnTerminNew;
 
-    //Aufrufen der TerminNeu.fxml//
+    /**
+     * Aufrufen des GUI zur Änderung von Terminen
+     * @param event Neuer Termin, Terminänderung (Beartbeitung oder Löschung), Übersicht, Adressbuch, Tagesübersicht
+     *              und Tracker
+     * @throws IOException
+     */
     public void handleBtnTerminNew(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("TerminNeu.fxml"));
         startPane.getChildren().setAll(newPane);

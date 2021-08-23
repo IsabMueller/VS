@@ -15,6 +15,12 @@ public class EinstellungenAendernNachnameController {
     @FXML
     private Button btnBackSettings;
 
+    /**
+     *
+     * @param event Änderung des Vor- bzw. Nachnamens
+     * @throws IOException Anzeigen der GUI ProfilEinstellungen
+     */
+
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
         NachnameChangePane.getChildren().setAll(newPane);

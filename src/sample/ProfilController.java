@@ -14,6 +14,11 @@ public class ProfilController {
     @FXML
     private Button btnBackProfil;
 
+    /**
+     *
+     * @param event Anzeigen des GUI "Start"
+     * @throws IOException
+     */
     public void handleBtnBackProfil(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         profilPane.getChildren().setAll(newPane);

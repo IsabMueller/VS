@@ -16,8 +16,13 @@ public class AdressbuchController {
     @FXML
     private Button btnBackNeuerKalender;
 
+    /**
+     * Methode zum Erstellen eines neuen Kalenders nach Registirerung.
+     */
+
     public void handleBtnNeuerKalender(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         neuerKalenderPane.getChildren().setAll(newPane);
     }
 }
+

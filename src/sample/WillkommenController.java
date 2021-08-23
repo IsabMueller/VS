@@ -18,7 +18,10 @@ public class WillkommenController {
     private AnchorPane welcomePane;
 
 
-    // aufrufen der Register.fxml//
+    /**
+     * Aufruf des GUI "Willkommen" (Post LogIn Screen)
+     * @param actionEvent
+     */
     public void handleBtnReg(ActionEvent actionEvent) {
         BorderPane newPane = null;
         try {

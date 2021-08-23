@@ -18,17 +18,32 @@ public class SicherheitsEinstellungenController {
     @FXML
     private AnchorPane SicherheitseinstellungenPane;
 
+
+    /**
+     * Controller für den Abschnitt Einstellungen
+     * @param event Anzeigen der GUI "Einstellungen"
+     * @throws IOException
+     */
     public void handleBtnBackSicherheitseinstellungen(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Einstellungen.fxml"));
         SicherheitseinstellungenPane.getChildren().setAll(newPane);
     }
 
+    /**
+     * Controller für den Abschnitt Änderung der Mail-Adresse
+     * @param event Anzeigen der GUI "EinstellungenAendernEmail"
+     * @throws IOException
+     */
     public void handleBtnChangeEmail(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernEmail.fxml"));
         SicherheitseinstellungenPane.getChildren().setAll(newPane);
     }
 
-
+    /**
+     * Controller für den Abschnitt Änderung des Passworts
+     * @param event
+     * @throws IOException
+     */
     public void handleBtnChangePasswort(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("EinstellungenAendernPasswort.fxml"));
         SicherheitseinstellungenPane.getChildren().setAll(newPane);

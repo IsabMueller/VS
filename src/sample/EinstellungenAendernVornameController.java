@@ -15,6 +15,11 @@ public class EinstellungenAendernVornameController {
     @FXML
     private Pane VornameChangePane;
 
+    /**
+     *
+     * @param event Änderung des Vornamens
+     * @throws IOException Anzeigen des GUI "ProfilEinstellungen"
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("ProfilEinstellungen.fxml"));
         VornameChangePane.getChildren().setAll(newPane);

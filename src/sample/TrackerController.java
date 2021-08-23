@@ -22,6 +22,11 @@ public class TrackerController {
     @FXML
     private javafx.scene.control.Button BtnEndTracker;
 
+    /**
+     * Controller für den Tracker (Zeiterfassung)
+     * @param event
+     * @throws IOException
+     */
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Start.fxml"));
         TrackerPane.getChildren().setAll(newPane);

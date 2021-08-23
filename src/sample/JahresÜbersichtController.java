@@ -14,6 +14,11 @@ public class JahresÜbersichtController {
     @FXML
     private AnchorPane JahresÜbersichtPane;
 
+    /**
+     *
+     * @param event Wechsel zum GUI "Uebersicht" (Tagesübersicht)
+     * @throws IOException Rückkehr zum vorhergehenden GUI
+     */
     public void handleBtnBackÜbersichtTag(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Uebersicht.fxml"));
         JahresÜbersichtPane.getChildren().setAll(newPane);

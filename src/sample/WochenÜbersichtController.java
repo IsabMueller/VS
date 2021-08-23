@@ -14,6 +14,11 @@ public class WochenÜbersichtController {
     @FXML
     private Button btnBackTagesübersicht;
 
+    /**
+     * Controller zum Anzeigen der Wochenübersicht
+     * @param event
+     * @throws IOException
+     */
     public void handleBtnBackÜbersichtTag(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("Uebersicht.fxml"));
         WochenÜbersichtPane.getChildren().setAll(newPane);

@@ -17,7 +17,9 @@ public class RegisterController {
     private Button btnAbbrechen;
 
 
-    //zurück zur willkommen.fxml
+    /**
+     *  zurück zum GUI Willkommen
+     */
     @FXML
     public void handleBtnAbbrechen(ActionEvent actionEvent){
         AnchorPane newPane = null;
