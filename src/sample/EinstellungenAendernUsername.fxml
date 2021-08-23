@@ -25,7 +25,7 @@
             </Label>
             <Line endX="767.0000610351562" endY="239.5" layoutX="-315.0" layoutY="-37.0" startX="416.0" startY="239.5" stroke="DARKTURQUOISE" />
             <Button fx:id="btnBackSettings" layoutX="148.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleBtnBackSettings" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
-            <Button fx:id="btnChangedUsername" layoutX="312.0" layoutY="220.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="OK!" textFill="GAINSBORO" />
+            <Button fx:id="btnChangedUsername" layoutX="312.0" layoutY="220.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="OK!" textFill="GAINSBORO" />
             <TextField fx:id="tfChangedUsername" layoutX="150.0" layoutY="106.0" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
          </children>
       </Pane>
