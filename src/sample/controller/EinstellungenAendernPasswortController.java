@@ -12,6 +12,10 @@ import java.io.IOException;
 public class EinstellungenAendernPasswortController {
 
     @FXML
+    private TextField tfNeuesPasswort;
+    @FXML
+    private TextField tfAltesPasswort;
+    @FXML
     private TextField tfPasswortWiederholen;
     @FXML
     private AnchorPane PasswortChangePane;
@@ -30,14 +34,27 @@ public class EinstellungenAendernPasswortController {
         PasswortChangePane.getChildren().setAll(newPane);
     }
     //Textfeld Eingabe Auswerten
-    String UsernameEingabe;
+    String Eingabe1;
+    String Eingabe2;
+    String Eingabe3;
 
-    public TextField getTfChangedUsername() {
+    public TextField getTfAltesPasswort() {
+
+        return tfAltesPasswort;
+    }
+    public TextField getTfNeuesPasswort() {
+
+        return tfNeuesPasswort;
+    }
+    public TextField getTfPasswortWiederholen() {
+
         return tfPasswortWiederholen;
     }
 
     public void submit(ActionEvent event) {
-        UsernameEingabe = tfPasswortWiederholen.getText();
-        System.out.println(UsernameEingabe);
+        Eingabe1 = tfAltesPasswort.getText();
+        Eingabe2 = tfNeuesPasswort.getText();
+        Eingabe3 = tfPasswortWiederholen.getText();
+        System.out.println('\n'+ Eingabe1  +'\n'+ Eingabe2 + '\n' + Eingabe3);
     }
 }

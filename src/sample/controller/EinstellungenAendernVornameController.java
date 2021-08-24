@@ -28,14 +28,14 @@ public class EinstellungenAendernVornameController {
         VornameChangePane.getChildren().setAll(newPane);
     }
     //Textfeld Eingabe Auswerten
-    String UsernameEingabe;
+    String Eingabe;
 
-    public TextField getTfChangedUsername() {
+    public TextField getTfChangedVorname() {
         return tfChangedVorname;
     }
 
     public void submit(ActionEvent event) {
-        UsernameEingabe = tfChangedVorname.getText();
-        System.out.println(UsernameEingabe);
+        Eingabe = tfChangedVorname.getText();
+        System.out.println(Eingabe);
     }
 }

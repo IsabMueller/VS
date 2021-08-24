@@ -29,15 +29,15 @@ public class EinstellungenAendernNachnameController {
         NachnameChangePane.getChildren().setAll(newPane);
     }
     //Textfeld Eingabe Auswerten
-    String UsernameEingabe;
+    String Eingabe;
 
-    public TextField getTfChangedUsername() {
+    public TextField getTfChangedNachname() {
 
         return tfChangedNachname;
     }
 
     public void submit(ActionEvent event) {
-        UsernameEingabe = tfChangedNachname.getText();
-        System.out.println(UsernameEingabe);
+        Eingabe = tfChangedNachname.getText();
+        System.out.println(Eingabe);
     }
 }

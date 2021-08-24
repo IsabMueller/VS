@@ -28,7 +28,7 @@ public class EinstellungenAendernUsernameController {
         usernameChangePane.getChildren().setAll(newPane);
     }
      //Textfeld Eingabe Auswerten
-    String UsernameEingabe;
+    String Eingabe;
 
     public TextField getTfChangedUsername() {
 
@@ -36,7 +36,7 @@ public class EinstellungenAendernUsernameController {
     }
 
     public void submit(ActionEvent event) {
-        UsernameEingabe = tfChangedUsername.getText();
-        System.out.println(UsernameEingabe);
+        Eingabe = tfChangedUsername.getText();
+        System.out.println(Eingabe);
     }
 }
