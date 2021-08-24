@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 
@@ -11,6 +12,20 @@ import java.io.IOException;
 
 public class RegisterController {
 
+    @FXML
+    private TextField tfRegVorname;
+    @FXML
+    private TextField tfRegNachname;
+    @FXML
+    private TextField tfRegUsername;
+    @FXML
+    private TextField tfRegMail;
+    @FXML
+    private TextField tfRegPw;
+    @FXML
+    private TextField tfRegPwConfirm;
+    @FXML
+    private Button registrierenButton;
     @FXML
     private BorderPane registrierenPane;
     @FXML
@@ -30,4 +45,7 @@ public class RegisterController {
         }
         registrierenPane.getChildren().setAll(newPane);
     }
+
+    //public void handleBtnReg(ActionEvent actionEvent) {
+    //}
 }
