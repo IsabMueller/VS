@@ -25,7 +25,7 @@
             </Label>
             <Line endX="767.0000610351562" endY="239.5" layoutX="-314.0" layoutY="-38.0" startX="416.0" startY="239.5" stroke="DARKTURQUOISE" />
             <Button fx:id="btnBackSettings" layoutX="157.0" layoutY="227.0" mnemonicParsing="false" onAction="#handleBtnBackSettings" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="Zurück" textFill="GAINSBORO" />
-            <Button fx:id="btnChangedEmail" layoutX="319.0" layoutY="227.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="OK!" textFill="GAINSBORO" />
+            <Button fx:id="btnChangedEmail" layoutX="319.0" layoutY="227.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #473c8b; -fx-border-color: #00ced1;" text="OK!" textFill="GAINSBORO" />
             <TextField fx:id="tfAlteEmail" layoutX="225.0" layoutY="73.0" prefHeight="27.0" prefWidth="215.0" style="-fx-background-color: #dcdcdc; -fx-border-color: #00ced1;" />
             <Label layoutX="114.0" layoutY="78.0" prefHeight="17.0" prefWidth="80.0" text="Alte E-mail" textFill="#9e9e9e" />
             <Label layoutX="114.0" layoutY="108.0" prefHeight="17.0" prefWidth="80.0" text="Neue E-mail" textFill="#9e9e9e" />

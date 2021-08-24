@@ -4,12 +4,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
 public class EinstellungenAendernVornameController {
+    @FXML
+    private TextField tfChangedVorname;
     @FXML
     private Button btnBackSettings;
     @FXML
@@ -23,5 +26,16 @@ public class EinstellungenAendernVornameController {
     public void handleBtnBackSettings(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("../view/ProfilEinstellungen.fxml"));
         VornameChangePane.getChildren().setAll(newPane);
+    }
+    //Textfeld Eingabe Auswerten
+    String UsernameEingabe;
+
+    public TextField getTfChangedUsername() {
+        return tfChangedVorname;
+    }
+
+    public void submit(ActionEvent event) {
+        UsernameEingabe = tfChangedVorname.getText();
+        System.out.println(UsernameEingabe);
     }
 }
