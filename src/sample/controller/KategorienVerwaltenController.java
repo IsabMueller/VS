@@ -10,7 +10,11 @@ import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
+import javafx.scene.paint.Color;
 
+import java.awt.*;
 import java.io.IOException;
 
 
@@ -45,10 +49,15 @@ public class KategorienVerwaltenController {
     public TextField getTfKategorieName(){
         return tfKategorieName;
     }
+    public void ChangeColor(ActionEvent event){
+        Color Katcolor = colorpickerKategorien.getValue();
+        tfKategorieName.setBackground(new Background(new BackgroundFill(Katcolor, null, null)));
+    }
 
     public void submitKat(ActionEvent event) {
         kategorie = tfKategorieName.getText();
         System.out.println(kategorie);
+
 
         listKategorie.getItems().addAll(kategorie);
 
