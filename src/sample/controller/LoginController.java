@@ -8,67 +8,44 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import java.io.File;
 import java.util.ResourceBundle;
 import java.net.URL;
 
-public class LoginController implements Initializable {
+public class LoginController{
+
 
     @FXML
-    private Button cancelButton;
+    private Button btnCancel;
     @FXML
-    private Label loginMessageLabel;
+    private Button btnLogin;
     @FXML
-    private ImageView brandingImageView;
+    private PasswordField tfPassword;
     @FXML
-    private ImageView lockImageView;
+    private TextField tfUsername;
     @FXML
-    private TextField usernameTextField;
-    @FXML
-    private PasswordField enterPasswordField;
+    private BorderPane loginPane;
 
-    /**
-     * Controller Klasse für LogIn
-     * @param url Initialisierung des Ressourcen-Bundle (z.B. Bilder)
-     * @param resourceBundle Ressourcen-Bundle (z.B. Bilder, Schriftarten, etc.)
-     */
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle){
-        File brandingFile = new File("Bilder/Logo.png");
-        Image brandingImage = new Image(brandingFile.toURI().toString());
-        brandingImageView.setImage(brandingImage);
 
-        File lockFile = new File("Bilder/Download.png");
-        Image lockImage = new Image(lockFile.toURI().toString());
-        lockImageView.setImage(lockImage);
+    public TextField getTfUsername() {
+        return tfUsername;
     }
 
-    /**
-     *
-     * @param event Button zum Bestätigen des LogIn mit Überprüfung der Anmeldedaten im Hintergrund
-     */
-    public void loginButtonOnAction(ActionEvent event) {
-
-        if (usernameTextField.getText().isBlank() == false && enterPasswordField.getText().isBlank() == false) {
-            validateLogin();
-        } else {
-            loginMessageLabel.setText("Bitte Username und Passwort angeben.");
-        }
+    public PasswordField getTfPassword() {
+        return tfPassword;
     }
 
-    /**
-     *
-     * @param event Button zum Abbruch des LogIn Vorgangs
-     */
-    public void cancelButtonOnAction(ActionEvent event) {
-        Stage stage = (Stage) cancelButton.getScene().getWindow();
-        stage.close();
+    String Username;
+    String Password;
+
+
+    public void submitBtnLogin(ActionEvent event) {
     }
 
-    public void validateLogin(){
-
+    public void handleBtnCancel(ActionEvent event) {
     }
-
 }
+
